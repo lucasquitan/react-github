@@ -91,10 +91,15 @@ export const List = styled.ul`
     & + li {
       border-top: 1px solid #eee;
     }
-
+    /* #00cc99; */
     a {
-      color: #00cc99;
+      color: #999999;
       text-decoration: none;
+
+      &:hover {
+        color: #00cc99;
+        transition: 0.3s;
+      }
     }
 
     span {
@@ -103,10 +108,11 @@ export const List = styled.ul`
 
     svg {
       margin-left: 15px;
-      color: #3333;
+      color: #999999;
 
       &:hover {
         color: red;
+        transition: 0.3s;
       }
     }
   }

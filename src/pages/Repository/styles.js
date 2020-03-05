@@ -54,6 +54,17 @@ export const Owner = styled.header`
     text-align: center;
     max-width: 400px;
   }
+
+  .access {
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+
+    &:hover {
+      color: #00cc99;
+      transition: 0.3s;
+    }
+  }
 `;
 
 export const IssueList = styled.ul`
